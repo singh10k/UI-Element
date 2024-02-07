@@ -1,0 +1,133 @@
+
+.compareMainSectionDiv{
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+}
+
+.compareMainSectionDiv .comaparInnerWrapper{ 
+    width: 1200px;
+    margin: 0 auto;
+}
+.compareMainSectionDiv .comaparInnerWrapper ._takeCompareData {
+    margin:15px 0;
+    display: flex;
+    flex-direction: row;
+}
+.compareMainSectionDiv ._takeCompareData .compareInputData{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border: 1px solid #c2c2c2;
+    padding: 20px;
+    margin: 4px 8px;
+    border-radius: 12px;
+    background-color: #fff;
+}
+.compareMainSectionDiv ._takeCompareData .compareInputData  .showBullet{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #0b4a99;
+}
+/* .compareMainSectionDiv ._takeCompareData .compareInputData .optionIcon img{
+    display: none;
+}
+.compareMainSectionDiv ._takeCompareData .compareInputData:hover .optionIcon img{
+    display: block;
+    transition: 300ms ease-in-out;
+} */
+.compareMainSectionDiv ._takeCompareData .compareInputData .inputPartyCompareData .searchPeopleName{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: inherit;
+}
+.inputPartyCompareData ._discription{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: inherit;
+}
+._filterButoonMainDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 17px 0px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+._filterButoonMainDiv ._FltrButton{
+    width: 160px;
+    height: 30px;
+}
+._filterButoonMainDiv ._FltrButton select ,  ._filterButoonMainDiv ._FltrButton input{
+    border: 1px solid #0b4a99;
+    border-radius: 4px;
+    color: #0b4a99;
+    width: 100%;
+    
+}
+.showChartInnerDiv{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+._ShowCompareDtaInChartFormateMain {
+    background-color: #fff;
+    border-radius: 12px;
+}
+._MapDataMainDiv{
+    background-color: #fff;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 12px;
+}
+.mapDataInnerDiv .responsive-map{
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.mapDataInnerDiv .responsive-map iframe{
+    left:0;
+    top:0;
+    width: 300px;
+    height: 300px;
+    position:absolute;
+}
+._MapDataMainDiv  .mapHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+._MapDataMainDiv .mapIcon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #000;
+    opacity: .8;
+}
+.mapDataInnerDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.progressList{
+    display: grid;
+    align-items: center;
+    list-style: auto;
+    grid-template-columns: repeat(2 , 1fr);
+    margin-bottom: 10px;
+}
+.progressList p{
+    font-size: 16px;
+    margin-bottom: inherit;
+}
