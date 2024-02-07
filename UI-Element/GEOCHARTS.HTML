@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', {
+            'packages': ['geochart'],
+            'mapsApiKey': "AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY"
+        });
+        google.charts.setOnLoadCallback(drawRegionsMap);
+
+        function drawRegionsMap() {
+            var data = google.visualization.arrayToDataTable([
+                ['State', 'Population','number'],
+                ['Uttar Pradesh', 200, 300],
+                ['Maharashtra', 300, 300],
+                ['Bihar', 400, 300],
+                ['West Bengal', 500, 300],
+                ['Madhya Pradesh', 600, 300],
+                // Add more states and corresponding data as needed
+            ]);
+
+            var options = {
+                region: 'IN', // Country code for India
+                resolution: 'provinces', // Show state-level data
+                colorAxis: { colors: ['lightblue', 'darkblue'] }, // Define color range
+            };
+
+            var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+            chart.draw(data, options);
+        }
+
+  google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'Sales', 'Expenses'],
+          ['2004',  1000,      400],
+          ['2005',  1170,      460],
+          ['2006',  660,       1120],
+          ['2007',  1030,      540]
+        ]);
+
+        var options = {
+          title: 'Company Performance',
+       //   curveType: 'function',
+          legend: 'none'
+//{ position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('line_top_x'));
+
+        chart.draw(data, options);
+      }
+
+    </script>
+</head>
+
+<body>
+    <div id="regions_div" style="width: 400px; height: 400px;"></div>
+<div id="line_top_x"></div>
+</body>
+
+</html>
