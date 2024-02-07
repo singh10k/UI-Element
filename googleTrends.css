@@ -1,0 +1,22 @@
+.googleTrendsSearchDiv .searchDiv {
+    border: 1px solid rgb(3, 3, 87);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.googleTrendsSearchDiv {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.googleTrendsSerchField {
+    border: 2px solid #ccc;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+}
+
+.googleTrendsSerchField .googleTrendsSvgDiv {
+    margin-top: 10px;
+}
