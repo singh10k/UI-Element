@@ -1,0 +1,169 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.mainPageWrapper{
+    width:80%;
+    height:100%;
+    position:relative;
+    margin:0 auto;
+    border:2px solid #ddd;
+    background-color: #f1f1f1;
+}
+.mainPageWrapper .heading_Sec{
+    position: sticky;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 8px;
+    background-color: #b1c8ea;
+}
+.mainPageWrapper .heading_Sec ul{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    position:relative;
+    
+}
+.mainPageWrapper .heading_Sec ul li{
+    font-size:14px;
+    font-weight:600;
+    position:relative;
+    
+}
+.mainPageWrapper .heading_Sec ul li:nth-child(1)::before{
+    content:"";
+    position:absolute;
+    top:6px;
+    left:-20px;
+    width:15px;
+    height:15px;
+    background-color: #0b4a99;
+    border-radius:50%;
+}
+.mainPageWrapper .heading_Sec ul li:nth-child(2)::before{
+    content:"";
+    position:absolute;
+    top:6px;
+    left:-20px;
+    width:15px;
+    height:15px;
+    background-color: #4771b1;
+    border-radius:50%;
+}
+.mainPageWrapper .heading_Sec ul li:nth-child(3)::before{
+    content:"";
+    position:absolute;
+    top:6px;
+    left:-20px;
+    width:15px;
+    height:15px;
+    background-color: red;
+    border-radius:50%;
+}
+.mainPageWrapper .heading_Sec ul li:nth-child(4)::before{
+    content:"";
+    position:absolute;
+    top:6px;
+    left:-20px;
+    width:15px;
+    height:15px;
+    background-color: #ccc;
+    border-radius:50%;
+}
+.mainPageWrapper .heading_Sec ul li:nth-child(5)::before{
+    content:"";
+    position:absolute;
+    top:6px;
+    left:-20px;
+    width:15px;
+    height:15px;
+    background-color: #d1d4db;
+    border-radius:50%;
+}
+
+
+.mainPageWrapper .contectSecMain .contectInnerSec .left_Content{
+    display: flex;
+    align-items: center;
+    justify-content: normal;
+    gap: 10px;
+    width: 25%;
+}
+.mainPageWrapper .contectSecMain .contectInnerSec .left_Content img , .mainPageWrapper .right_Content .partLogo img{
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+/* .mainPageWrapper .contectSecMain .contectInnerSec .right_Content .customProgressClass{
+    width: 500px;
+    height: 22px;
+    border-radius: inherit;
+} */
+.mainPageWrapper .contectSecMain .contectInnerSec ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+    gap: 8px;
+    border-bottom: 1px solid #ddd;
+}
+.customProgressClass ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.customProgressClass ul li{
+    border: none !important;
+}
+/* .contentList {
+    height: 145px;
+} */
+.bulet{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.customProgressClass ._rank{
+    border: 1px solid #ddd;
+    background-color: #0b4a99;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+._twitter{
+    background-color: #0b4a99;
+}
+._facebook{
+    background-color: #4771b1;
+}
+._youtube{
+    background-color: red;
+}
+._news{
+    background-color: #ccc;
+}
+._newsPaper{
+    background-color: #d1d4db;
+}
+.mainPageWrapper .contectSecMain .contectInnerSec .candidatname h3{
+    font-size: 14px;
+    font-weight: 600;
+    color: #0b4a99;
+}
+.mainPageWrapper .contectSecMain .contectInnerSec .right_Content{
+    display: flex;
+    align-items: center;
+    justify-content: normal;
+    gap: 20px;
+}
+.mainPageWrapper .contectSecMain .contectInnerSec .right_Content h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0b4a99;
+}
